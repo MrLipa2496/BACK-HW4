@@ -46,7 +46,7 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: true,
         validate: {
           isIn: {
-            args: [['2GB', '4GB', '8GB', '16GB', '32GB', '64GB']],
+            args: [['2GB', '4GB', '6GB', '8GB', '16GB', '32GB', '64GB']],
             msg: 'RAM size must be one of the predefined options',
           },
         },
